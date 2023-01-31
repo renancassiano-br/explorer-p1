@@ -6,7 +6,13 @@
 }
 
 body {
+  text-align: center;
   font-family: 'Open Sans', sans-serif;
+}
+
+#hero {
+  width: 592px;
+  margin: auto;
 }
 
 h1{
