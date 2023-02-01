@@ -34,10 +34,21 @@ a {
   color: #FF9900;
 }
 
-p {
+p,
+footer {
   color: #7D7987;
   font-size: 14px;
   line-height: 28px;
+}
+
+footer #line{
+  /* Quando define tamanho fixo e deseja alinhar ao centro
+    tem que ter o margin auto */
+  width: 568px; 
+  margin: 0 auto 8px; 
+
+  height: 0px;
+  border: 1px solid #ECEFF2;
 }
 
 /* pegando o a que tem um a antes dele
@@ -45,4 +56,10 @@ p {
 */
 footer a + a{
   margin-left: 28px;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
