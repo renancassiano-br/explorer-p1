@@ -12,7 +12,10 @@ body {
 
 #hero {
   width: 592px;
-  margin: auto;
+  margin: 0 auto 72px;
+}
+#hero img {
+  margin-bottom: 72px;
 }
 
 h1{
@@ -20,6 +23,7 @@ h1{
   font-size: 49px;
   line-height: 56px;
   font-weight: normal;
+  margin-bottom: 32px;
 }
 h1 span{
   font-weight: bold;
@@ -34,4 +38,11 @@ p {
   color: #7D7987;
   font-size: 14px;
   line-height: 28px;
+}
+
+/* pegando o a que tem um a antes dele
+   o + é indicando o anterior
+*/
+footer a + a{
+  margin-left: 28px;
 }
